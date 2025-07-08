@@ -1,0 +1,22 @@
+add_newline = true
+
+[character]
+success_symbol = '[➜](bold green)'
+error_symbol = '[➜](bold red)'
+disabled = false
+
+[git_branch]
+style = 'fg:green'
+symbol = ' '
+format = '[on](white) [$symbol$branch ]($style)'
+
+[git_status]
+style = 'fg:green'
+format = '([$all_status$ahead_behind]($style) )'
+
+[time]
+format = 'at [$time]($style) '
+style = "yellow"
+time_format = "%H:%M:%S"
+disabled = false
+

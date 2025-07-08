@@ -1,0 +1,6 @@
+font-family = "JetBrainsMono Nerd Font"
+theme = catppuccin-mocha
+font-size = 16
+font-style = bold
+cursor-opacity = 0.5
+window-padding-x = 10
