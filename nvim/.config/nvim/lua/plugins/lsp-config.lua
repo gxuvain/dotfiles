@@ -1,4 +1,3 @@
-ajajaj
 return {
   {
     "williamboman/mason.nvim",
