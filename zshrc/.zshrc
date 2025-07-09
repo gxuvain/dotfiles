@@ -1,3 +1,8 @@
+if [[ -f "/opt/homebrew/bin/brew" ]] then
+  # If you're using macOS, you'll want this enabled
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+fi
+
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
@@ -6,8 +11,6 @@ if [ ! -d "$ZINIT_HOME" ]; then
    mkdir -p "$(dirname $ZINIT_HOME)"
    git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
 fi
-
-eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Source/Load zinit
 source "${ZINIT_HOME}/zinit.zsh"
@@ -80,3 +83,7 @@ eval "$(tmuxifier init -)"
 # This section can be safely removed at any time if needed.
 [[ ! -r '/Users/gxuvain/.opam/opam-init/init.zsh' ]] || source '/Users/gxuvain/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
 # END opam configuration
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
