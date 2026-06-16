@@ -1,0 +1,9 @@
+[user]
+	name = Gauvain Palanga
+	email = gauvainpalanga@gmail.com
+[core]
+	editor = "nvim"
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
