@@ -1,0 +1,31 @@
+0000000000000000000000000000000000000000 e2febd31df489be7a688bd1292bf7ef601ff1a4d Gauvain Palanga <gauvainpalanga@gmail.com> 1780133133 +0200	commit (initial): chore: initial commit
+e2febd31df489be7a688bd1292bf7ef601ff1a4d 0a46076c1f5c16fc8719fe3afae5a7ff3268cc80 Gauvain Palanga <gauvainpalanga@gmail.com> 1780133560 +0200	commit: docs: add README
+0a46076c1f5c16fc8719fe3afae5a7ff3268cc80 0740923b8a653a9df720cbaf49bf918b788bfe4c Gauvain Palanga <gauvainpalanga@gmail.com> 1780314191 +0200	commit: feat: add lsp and formatter for ocaml
+0740923b8a653a9df720cbaf49bf918b788bfe4c 4805476564dac19d0ee14a618c73313fae6de366 Gauvain Palanga <gauvainpalanga@gmail.com> 1780317672 +0200	commit: feat: add nvim web devicons for better compatibility
+4805476564dac19d0ee14a618c73313fae6de366 45d79ce8c0fc7e77d1de8c4da39d06250683117a Gauvain Palanga <gauvainpalanga@gmail.com> 1780343481 +0200	commit: fix: TS highlight bug
+45d79ce8c0fc7e77d1de8c4da39d06250683117a 3883c6f9ed019ed907990cb9cae3b277f57bea62 Gauvain Palanga <gauvainpalanga@gmail.com> 1780346229 +0200	commit: fix: remove unused plugin and update mini.sessions config
+3883c6f9ed019ed907990cb9cae3b277f57bea62 be013cc96cc513f947ce31d2754cc091e2bead29 Gauvain Palanga <gauvainpalanga@gmail.com> 1780420068 +0200	commit: docs: add design spec for nvim lsp navigation and code actions
+be013cc96cc513f947ce31d2754cc091e2bead29 732440d039e8958fbc505f5e612abd50ec23f15f Gauvain Palanga <gauvainpalanga@gmail.com> 1780468844 +0200	commit: fix: lsp setup
+732440d039e8958fbc505f5e612abd50ec23f15f 3883c6f9ed019ed907990cb9cae3b277f57bea62 Gauvain Palanga <gauvainpalanga@gmail.com> 1780468878 +0200	rebase (start): checkout 3883c6f9ed019ed907990cb9cae3b277f57bea62
+3883c6f9ed019ed907990cb9cae3b277f57bea62 451432fc8d72d951a60b871a73eafe1316910e5e Gauvain Palanga <gauvainpalanga@gmail.com> 1780468878 +0200	rebase (pick): fix: lsp setup
+451432fc8d72d951a60b871a73eafe1316910e5e 451432fc8d72d951a60b871a73eafe1316910e5e Gauvain Palanga <gauvainpalanga@gmail.com> 1780468878 +0200	rebase (finish): returning to refs/heads/main
+451432fc8d72d951a60b871a73eafe1316910e5e f731607ee7fe78418100504d8c82703aa5942814 Gauvain Palanga <gauvainpalanga@gmail.com> 1780469351 +0200	pull --no-edit: Merge made by the 'ort' strategy.
+f731607ee7fe78418100504d8c82703aa5942814 be013cc96cc513f947ce31d2754cc091e2bead29 Gauvain Palanga <gauvainpalanga@gmail.com> 1780469393 +0200	reset: moving to be013cc96cc513f947ce31d2754cc091e2bead29
+be013cc96cc513f947ce31d2754cc091e2bead29 be013cc96cc513f947ce31d2754cc091e2bead29 Gauvain Palanga <gauvainpalanga@gmail.com> 1780469403 +0200	reset: moving to be013cc96cc513f947ce31d2754cc091e2bead29
+be013cc96cc513f947ce31d2754cc091e2bead29 be013cc96cc513f947ce31d2754cc091e2bead29 Gauvain Palanga <gauvainpalanga@gmail.com> 1780469410 +0200	reset: moving to be013cc96cc513f947ce31d2754cc091e2bead29
+be013cc96cc513f947ce31d2754cc091e2bead29 732440d039e8958fbc505f5e612abd50ec23f15f Gauvain Palanga <gauvainpalanga@gmail.com> 1780469416 +0200	pull --no-edit: Fast-forward
+732440d039e8958fbc505f5e612abd50ec23f15f be013cc96cc513f947ce31d2754cc091e2bead29 Gauvain Palanga <gauvainpalanga@gmail.com> 1780469425 +0200	reset: moving to be013cc96cc513f947ce31d2754cc091e2bead29
+be013cc96cc513f947ce31d2754cc091e2bead29 be013cc96cc513f947ce31d2754cc091e2bead29 Gauvain Palanga <gauvainpalanga@gmail.com> 1780469458 +0200	reset: moving to be013cc96cc513f947ce31d2754cc091e2bead29
+be013cc96cc513f947ce31d2754cc091e2bead29 3883c6f9ed019ed907990cb9cae3b277f57bea62 Gauvain Palanga <gauvainpalanga@gmail.com> 1780469555 +0200	rebase (start): checkout 3883c6f9ed019ed907990cb9cae3b277f57bea62
+3883c6f9ed019ed907990cb9cae3b277f57bea62 3883c6f9ed019ed907990cb9cae3b277f57bea62 Gauvain Palanga <gauvainpalanga@gmail.com> 1780469555 +0200	rebase (finish): returning to refs/heads/main
+3883c6f9ed019ed907990cb9cae3b277f57bea62 be013cc96cc513f947ce31d2754cc091e2bead29 Gauvain Palanga <gauvainpalanga@gmail.com> 1780469564 +0200	pull --no-edit: Fast-forward
+be013cc96cc513f947ce31d2754cc091e2bead29 3883c6f9ed019ed907990cb9cae3b277f57bea62 Gauvain Palanga <gauvainpalanga@gmail.com> 1780469574 +0200	rebase (start): checkout 3883c6f9ed019ed907990cb9cae3b277f57bea62
+3883c6f9ed019ed907990cb9cae3b277f57bea62 3883c6f9ed019ed907990cb9cae3b277f57bea62 Gauvain Palanga <gauvainpalanga@gmail.com> 1780469574 +0200	rebase (finish): returning to refs/heads/main
+3883c6f9ed019ed907990cb9cae3b277f57bea62 32a7d5b5c09b3960a64ba75725f88c6dce69b666 Gauvain Palanga <gauvainpalanga@gmail.com> 1780469590 +0200	commit: fix: lsp setup
+32a7d5b5c09b3960a64ba75725f88c6dce69b666 49a17dad32751c3b5cee5400ce301f294e3b2114 Gauvain Palanga <gauvainpalanga@gmail.com> 1781099518 +0200	commit: chore: move to a new structure with new plugins
+49a17dad32751c3b5cee5400ce301f294e3b2114 2217d1b7f1e17dca5b01d5c4cab54c415edc524c Gauvain Palanga <gauvainpalanga@gmail.com> 1781099618 +0200	commit: fix: fix missing git field in snacks
+2217d1b7f1e17dca5b01d5c4cab54c415edc524c af1b7c9c3ef494f357b763cb54f68fc8810ca8d2 Gauvain Palanga <gauvainpalanga@gmail.com> 1781099680 +0200	commit: docs: update README
+af1b7c9c3ef494f357b763cb54f68fc8810ca8d2 3adb2e8f5118409bd70cbcf89f3f393590018726 Gauvain Palanga <gauvainpalanga@gmail.com> 1781099901 +0200	commit: feat: add snacks keymaps for buffer
+3adb2e8f5118409bd70cbcf89f3f393590018726 c3ec09a3f8470287249be81a29a643fdbfc6e95b Gauvain Palanga <gauvainpalanga@gmail.com> 1781100218 +0200	commit: feat: add git blame keymap for snacks
+c3ec09a3f8470287249be81a29a643fdbfc6e95b 4ab2665db896e5f24bfa119b74c7eda1321fd046 Gauvain Palanga <gauvainpalanga@gmail.com> 1781123083 +0200	commit: feat: add new plugins and some config
+4ab2665db896e5f24bfa119b74c7eda1321fd046 c11a0a73c6861758ba276635bdeb57a700ec4618 Gauvain Palanga <gauvainpalanga@gmail.com> 1781284604 +0200	commit: fix: disable plugin for current test
