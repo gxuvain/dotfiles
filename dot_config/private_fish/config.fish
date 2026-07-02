@@ -1,6 +1,7 @@
 set fish_greeting
 alias c="clear"
 alias ll="eza -l --icons"
+alias cat="bat"
 starship init fish | source
 zoxide init fish | source
 fish_config theme choose catppuccin-macchiato
