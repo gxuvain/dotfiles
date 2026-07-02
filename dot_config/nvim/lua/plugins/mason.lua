@@ -12,7 +12,8 @@ return {
 			"oxlint",
 			"jsonls",
 			"ocamllsp",
-			"tailwindcss"
+			"tailwindcss",
+			"vue_ls"
 		}
 		require("mason").setup()
 		require("mason-lspconfig").setup({
