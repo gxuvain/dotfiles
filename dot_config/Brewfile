@@ -9,6 +9,10 @@ brew "bat"
 brew "chezmoi"
 # CLI tool for Cloudflare Workers
 brew "cloudflare-wrangler"
+# General-purpose scripting language
+brew "php"
+# Dependency Manager for PHP
+brew "composer"
 # Modern, maintained replacement for ls
 brew "eza"
 # Like neofetch, but much faster because written mostly in C
@@ -19,8 +23,6 @@ brew "fd"
 brew "fish"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# GitHub command-line tool
-brew "gh"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Git-compatible distributed version control system
@@ -48,14 +50,14 @@ brew "tree-sitter-cli"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # The AI coding agent built for the terminal.
-brew "anomalyco/tap/opencode"
-# Terminal UI for GitHub pull requests
-brew "kitlangton/tap/ghui"
+brew "anomalyco/tap/opencode", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
 # Voice and text chat software
 cask "discord"
-cask "font-maple-mono"
+cask "font-jetbrains-mono-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Web browser
@@ -75,4 +77,7 @@ vscode "catppuccin.catppuccin-vsc"
 vscode "catppuccin.catppuccin-vsc-icons"
 vscode "dbaeumer.vscode-eslint"
 vscode "oxc.oxc-vscode"
+vscode "vitest.explorer"
+vscode "vscodevim.vim"
 vscode "vue.volar"
+vscode "yoavbls.pretty-ts-errors"
