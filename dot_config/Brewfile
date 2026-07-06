@@ -60,8 +60,8 @@ cask "discord"
 cask "font-jetbrains-mono-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# Web browser
-cask "google-chrome"
+# Chromium-based web browser
+cask "helium-browser"
 # Replacement for Docker Desktop
 cask "orbstack"
 # Control your tools with a few keystrokes
@@ -70,14 +70,3 @@ cask "raycast"
 cask "rectangle"
 # Music streaming service
 cask "spotify"
-# Open-source code editor
-cask "visual-studio-code"
-vscode "bradlc.vscode-tailwindcss"
-vscode "catppuccin.catppuccin-vsc"
-vscode "catppuccin.catppuccin-vsc-icons"
-vscode "dbaeumer.vscode-eslint"
-vscode "oxc.oxc-vscode"
-vscode "vitest.explorer"
-vscode "vscodevim.vim"
-vscode "vue.volar"
-vscode "yoavbls.pretty-ts-errors"
