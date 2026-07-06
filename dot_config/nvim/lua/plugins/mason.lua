@@ -13,7 +13,8 @@ return {
 			"jsonls",
 			"ocamllsp",
 			"tailwindcss",
-			"vue_ls"
+			"vue_ls",
+			"denols"
 		}
 		require("mason").setup()
 		require("mason-lspconfig").setup({
