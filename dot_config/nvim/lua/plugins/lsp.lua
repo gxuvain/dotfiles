@@ -18,13 +18,14 @@ return {
 				"ts_ls",
 				"oxlint",
 				"jsonls",
-				"ocamllsp",
 				"tailwindcss",
 				"vue_ls",
 				"denols"
 			})
-			local vue_language_server_path = vim.fn.expand(
-				"$MASON/packages/vue-language-server/node_modules/@vue/language-server")
+			vim.lsp.enable("ocamllsp", vim.fn.has("mac") == 1)
+
+			local vue_language_server_path = vim.fn.stdpath("data") ..
+					"/mason/packages/vue-language-server/node_modules/@vue/language-server"
 
 			local vue_plugin = {
 				name = "@vue/typescript-plugin",

@@ -11,11 +11,15 @@ return {
 			"ts_ls",
 			"oxlint",
 			"jsonls",
-			"ocamllsp",
 			"tailwindcss",
 			"vue_ls",
 			"denols"
 		}
+
+		if vim.fn.has("mac") == 1 then
+			table.insert(servers, "ocamllsp")
+		end
+
 		require("mason").setup()
 		require("mason-lspconfig").setup({
 			ensure_installed = servers
