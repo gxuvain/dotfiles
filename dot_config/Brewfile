@@ -1,18 +1,10 @@
 tap "anomalyco/tap", trusted: true
-tap "kitlangton/tap", trusted: true
-tap "libsql/sqld", trusted: true
-tap "nikitabobko/tap", trusted: true
-tap "tursodatabase/tap", trusted: true
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
 # CLI tool for Cloudflare Workers
 brew "cloudflare-wrangler"
-# General-purpose scripting language
-brew "php"
-# Dependency Manager for PHP
-brew "composer"
 # Modern, maintained replacement for ls
 brew "eza"
 # Like neofetch, but much faster because written mostly in C
