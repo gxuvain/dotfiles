@@ -13,7 +13,8 @@ return {
 			"jsonls",
 			"tailwindcss",
 			"vue_ls",
-			"denols"
+			"denols",
+			"ruff"
 		}
 
 		if vim.fn.has("mac") == 1 then

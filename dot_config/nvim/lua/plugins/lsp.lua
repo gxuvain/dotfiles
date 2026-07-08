@@ -20,7 +20,8 @@ return {
 				"jsonls",
 				"tailwindcss",
 				"vue_ls",
-				"denols"
+				"denols",
+				"ruff"
 			})
 			vim.lsp.enable("ocamllsp", vim.fn.has("mac") == 1)
 
