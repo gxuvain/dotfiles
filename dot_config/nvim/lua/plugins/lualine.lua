@@ -1,6 +1,6 @@
 return {
 	"nvim-lualine/lualine.nvim",
-	depejqzljdhkqjhkjqhfkjhfndencies = { "nvim-tree/nvim-web-devicons" },
+	dependencies = { "nvim-tree/nvim-web-devicons" },
 	config = function()
 		require("lualine").setup({
 			options = {
@@ -24,7 +24,8 @@ return {
 							info = " ",
 						}
 					}
-				}
+				},
+				lualine_x = { "filetype" }
 			},
 		})
 	end

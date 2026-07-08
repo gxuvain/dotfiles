@@ -22,7 +22,7 @@ return {
 		input = { enabled = true },
 		picker = {
 			enabled = true,
-			prompt = "🛸 ",
+			prompt = "🦕 ",
 		},
 		scope = { enabled = true },
 		words = { enabled = true },

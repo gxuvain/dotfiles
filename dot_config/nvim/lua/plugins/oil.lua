@@ -1,15 +1,26 @@
 return {
-	"stevearc/oil.nvim",
-	dependencies = { "nvim-tree/nvim-web-devicons" },
-	config = function()
-		require("oil").setup({
-			columns = {
-				"icon",
-			},
-			view_options = {
-				show_hidden = true
-			}
-		})
-		vim.keymap.set("n", "<leader>e", "<cmd>Oil<cr>")
-	end
+	{
+		"stevearc/oil.nvim",
+		dependencies = { "nvim-tree/nvim-web-devicons" },
+		config = function()
+			require("oil").setup({
+				columns = {
+					"icon",
+				},
+				view_options = {
+					show_hidden = true
+				}
+			})
+			vim.keymap.set("n", "<leader>e", "<cmd>Oil<cr>")
+		end
+	},
+	{
+		"benomahony/oil-git.nvim",
+		dependencies = { "stevearc/oil.nvim" },
+	},
+	{
+		"JezerM/oil-lsp-diagnostics.nvim",
+		dependencies = { "stevearc/oil.nvim" },
+		opts = {}
+	}
 }

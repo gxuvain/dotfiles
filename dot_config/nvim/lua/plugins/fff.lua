@@ -12,7 +12,7 @@ return {
 			layout = {
 				prompt_position = "top",
 			},
-			prompt = "🛸 "
+			prompt = "🦕 "
 		})
 	end,
 	keys = {

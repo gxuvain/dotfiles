@@ -9,12 +9,11 @@ return {
 		local servers = {
 			"lua_ls",
 			"ts_ls",
-			"oxlint",
 			"jsonls",
 			"tailwindcss",
 			"vue_ls",
 			"denols",
-			"ruff"
+			"basedpyright",
 		}
 
 		if vim.fn.has("mac") == 1 then
