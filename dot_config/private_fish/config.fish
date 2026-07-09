@@ -4,7 +4,7 @@ alias ll="eza -l --icons"
 alias cat="bat"
 starship init fish | source
 zoxide init fish | source
-fish_config theme choose catppuccin-macchiato
+fish_config theme choose tokyonight-moon
 
 # Added by OrbStack: command-line tools and integration
 # This won't be added again if you remove it.
