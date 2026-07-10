@@ -2,17 +2,17 @@ return {
 	{
 		"stevearc/oil.nvim",
 		dependencies = { "nvim-tree/nvim-web-devicons" },
-		config = function()
-			require("oil").setup({
-				columns = {
-					"icon",
-				},
-				view_options = {
-					show_hidden = true
-				}
-			})
-			vim.keymap.set("n", "<leader>e", "<cmd>Oil<cr>")
-		end
+		opts = {
+			columns = {
+				"icon",
+			},
+			view_options = {
+				show_hidden = true
+			}
+		},
+		keys = {
+			{ "<leader>e", "<cmd>Oil<cr>" },
+		},
 	},
 	{
 		"benomahony/oil-git.nvim",

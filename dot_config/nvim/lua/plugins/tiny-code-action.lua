@@ -8,10 +8,8 @@ return {
 			}
 		}
 	},
-	config = function()
-		require("tiny-code-action").setup({})
-		vim.keymap.set({ "n", "x" }, "<leader>ca", function()
-			require("tiny-code-action").code_action({})
-		end, { noremap = true, silent = true })
-	end
+	opts = {},
+	keys = {
+		{ "<leader>ca", function() require("tiny-code-action").code_action({}) end, mode = { "n", "x" } },
+	},
 }
