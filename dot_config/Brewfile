@@ -13,12 +13,8 @@ brew "fastfetch"
 brew "fd"
 # User-friendly command-line shell for UNIX-like operating systems
 brew "fish"
-# Text editor for your terminal: easy, powerful and fast
-brew "fresh-editor"
 # Command-line fuzzy finder written in Go
 brew "fzf"
-# Review-first terminal diff viewer for agent-authored changesets
-brew "hunk"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Git-compatible distributed version control system
@@ -39,10 +35,10 @@ brew "neovim"
 brew "ripgrep"
 # Cross-shell prompt for astronauts
 brew "starship"
-# Terminal multiplexer
-brew "tmux"
 # Parser generator tool
 brew "tree-sitter-cli"
+# Pluggable terminal workspace, with terminal multiplexer as the base feature
+brew "zellij"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # The AI coding agent built for the terminal.
