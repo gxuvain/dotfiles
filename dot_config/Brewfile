@@ -1,4 +1,7 @@
 tap "anomalyco/tap", trusted: true
+tap "chojs23/tap"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Manage your dotfiles across multiple diverse machines, securely
@@ -15,14 +18,26 @@ brew "fd"
 brew "fish"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Open-source GitLab command-line tool
+brew "glab"
+# Render markdown on the CLI
+brew "glow"
+# Tool for glamorous shell scripts
+brew "gum"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Git-compatible distributed version control system
 brew "jj"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Lazier way to manage everything docker
 brew "lazydocker"
 # Simple terminal UI for git commands
 brew "lazygit"
+# Control and observe media playback from the command-line
+brew "media-control"
 # Polyglot runtime manager (asdf rust clone)
 brew "mise"
 # Deep clean and optimize your Mac
@@ -33,16 +48,20 @@ brew "tree-sitter"
 brew "neovim"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Smart session manager for the terminal
+brew "sesh"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Terminal multiplexer
+brew "tmux"
 # Parser generator tool
 brew "tree-sitter-cli"
-# Pluggable terminal workspace, with terminal multiplexer as the base feature
-brew "zellij"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
 # The AI coding agent built for the terminal.
 brew "anomalyco/tap/opencode", trusted: true
+# A terminal user interface client for Discord
+brew "chojs23/tap/concord", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # OpenAI's coding agent that runs in your terminal

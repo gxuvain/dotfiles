@@ -2,9 +2,13 @@ set fish_greeting
 alias c="clear"
 alias ll="eza -l --icons"
 alias cat="bat"
+alias sl="sesh list -i"
 starship init fish | source
 zoxide init fish | source
 fish_config theme choose tokyonight-moon
+
+fish_add_path /opt/homebrew/bin
+fish_add_path /opt/homebrew/sbin
 
 # Added by OrbStack: command-line tools and integration
 # This won't be added again if you remove it.
