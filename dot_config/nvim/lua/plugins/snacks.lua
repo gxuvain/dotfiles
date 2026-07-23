@@ -18,7 +18,7 @@ return {
         },
       },
     },
-    indent = { enabled = false },
+    indent = { enabled = true },
     input = { enabled = true },
     picker = {
       enabled = true,
