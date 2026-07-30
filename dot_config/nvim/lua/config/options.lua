@@ -15,3 +15,6 @@ vim.o.wrap = false
 vim.o.winborder = "rounded"
 vim.o.pumborder = "rounded"
 vim.o.confirm = true
+vim.o.splitright = true
+vim.o.splitbelow = true
+vim.o.colorcolumn = "80"
