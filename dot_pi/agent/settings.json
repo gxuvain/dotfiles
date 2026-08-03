@@ -1,6 +1,6 @@
 {
   "lastChangelogVersion": "0.83.0",
-  "theme": "dark",
+  "theme": "tokyo-night",
   "defaultProvider": "opencode-go",
   "defaultModel": "gpt-5.6-luna",
   "defaultThinkingLevel": "high"
