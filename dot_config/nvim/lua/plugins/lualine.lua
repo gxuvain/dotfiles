@@ -1,4 +1,5 @@
 return {
+
   "nvim-lualine/lualine.nvim",
   opts = {
     options = {
@@ -6,6 +7,11 @@ return {
       section_separators = { left = "█", right = "█" },
     },
     sections = {
+      lualine_b = {
+        { "branch", icon = "" },
+        { "diff" },
+        { "diagnostics" },
+      },
       lualine_x = { "filetype" }
     },
   }
