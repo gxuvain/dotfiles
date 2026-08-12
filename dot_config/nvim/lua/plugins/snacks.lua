@@ -16,6 +16,12 @@ return {
           { icon = "󰒲 ", key = "L", desc = "Lazy", action = ":Lazy", enabled = package.loaded.lazy ~= nil },
           { icon = " ", key = "q", desc = "Quit", action = ":qa" },
         },
+        header = [[
+      dMMMMb  dMMMMMP .aMMMb  dMP dMP dMP dMMMMMMMMb
+     dMP dMP dMP     dMP"dMP dMP dMP amr dMP"dMP"dMP
+    dMP dMP dMMMP   dMP dMP dMP dMP dMP dMP dMP dMP
+  dMP dMP dMP     dMP.aMP  YMvAP" dMP dMP dMP dMP
+dMP dMP dMMMMMP  VMMMP"    VP"  dMP dMP dMP dMP]]
       },
     },
     indent = { enabled = true },

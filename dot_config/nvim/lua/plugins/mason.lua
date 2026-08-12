@@ -10,7 +10,6 @@ return {
       "json-lsp",
       "tailwindcss-language-server",
       "vue-language-server",
-      "deno",
       "basedpyright",
       "eslint-lsp"
     }

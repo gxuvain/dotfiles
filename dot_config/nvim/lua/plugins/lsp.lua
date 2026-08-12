@@ -18,7 +18,6 @@ return {
       "jsonls",
       "tailwindcss",
       "vue_ls",
-      "denols",
       "basedpyright",
       "eslint"
     })
@@ -39,10 +38,6 @@ return {
         plugins = { vue_plugin },
       },
       filetypes = { "typescript", "javascript", "javascriptreact", "typescriptreact", "vue" },
-    })
-
-    vim.lsp.config("denols", {
-      root_markers = { "deno.json", "deno.jsonc" },
     })
 
     vim.lsp.config("ts_ls", {

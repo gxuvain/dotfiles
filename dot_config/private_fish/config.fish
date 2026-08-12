@@ -2,25 +2,8 @@ set fish_greeting
 alias c="clear"
 alias ll="eza -l --icons"
 alias cat="bat"
-alias sl="sesh list -i"
 starship init fish | source
 zoxide init fish | source
 fish_config theme choose tokyonight-moon
-
 fish_add_path /opt/homebrew/bin
 fish_add_path /opt/homebrew/sbin
-
-# pnpm
-set -gx PNPM_HOME "/Users/gxuvain/Library/pnpm"
-if not string match -q -- "$PNPM_HOME/bin" $PATH
-  set -gx PATH "$PNPM_HOME/bin" $PATH
-end
-# pnpm end
-
-# BEGIN opam configuration
-# This is useful if you're using opam as it adds:
-#   - the correct directories to the PATH
-#   - auto-completion for the opam binary
-# This section can be safely removed at any time if needed.
-test -r '/Users/gxuvain/.opam/opam-init/init.fish' && source '/Users/gxuvain/.opam/opam-init/init.fish' > /dev/null 2> /dev/null; or true
-# END opam configuration
