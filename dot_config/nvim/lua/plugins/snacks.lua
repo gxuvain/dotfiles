@@ -26,10 +26,7 @@ dMP dMP dMMMMMP  VMMMP"    VP"  dMP dMP dMP dMP]]
     },
     indent = { enabled = true },
     input = { enabled = true },
-    picker = {
-      enabled = true,
-      prompt = "🦕 ",
-    },
+    picker = { enabled = true },
     scope = { enabled = true },
     words = { enabled = true },
     zen = { enabled = true },
@@ -62,7 +59,5 @@ dMP dMP dMMMMMP  VMMMP"    VP"  dMP dMP dMP dMP]]
     { "<leader>bd",      function() Snacks.bufdelete() end,                   desc = "Delete Buffer" },
     { "<leader>bdo",     function() Snacks.bufdelete.other() end,             desc = "Delete All Other Buffers" },
     { "<leader>bda",     function() Snacks.bufdelete.all() end,               desc = "Delete All Buffers" },
-    -- Other
-    { "<leader>z",       function() Snacks.zen() end,                         desc = "Toggle Zen Mode" },
   }
 }

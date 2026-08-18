@@ -1,7 +1,6 @@
 return {
   {
     "stevearc/oil.nvim",
-    dependencies = { "nvim-tree/nvim-web-devicons" },
     opts = {
       columns = {
         "icon",
@@ -11,7 +10,7 @@ return {
       }
     },
     keys = {
-      { "<leader>e", "<cmd>Oil<cr>" },
+      { "<leader>e", "<cmd>Oil --float<cr>" },
     },
   },
 }
