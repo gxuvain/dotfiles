@@ -1,11 +1,16 @@
 {
-  "lastChangelogVersion": "0.83.0",
+  "lastChangelogVersion": "0.84.2",
   "theme": "tokyo-night",
   "defaultProvider": "opencode-go",
   "defaultModel": "gpt-5.6-luna",
   "defaultThinkingLevel": "medium",
   "packages": [
     "npm:@plannotator/pi-extension",
-    "npm:pi-web-access"
+    "npm:pi-web-access",
+    "npm:pi-subagents",
+    "npm:@tintinweb/pi-tasks",
+    "npm:pi-add-dir",
+    "npm:pi-model-control",
+    "npm:pi-btw"
   ]
 }
