@@ -18,8 +18,9 @@ return {
       "jsonls",
       "tailwindcss",
       "vue_ls",
-      "basedpyright",
-      "eslint"
+      "eslint",
+      "ruff",
+      "pyright"
     })
     vim.lsp.enable("ocamllsp", vim.fn.has("mac") == 1)
 
@@ -84,6 +85,19 @@ return {
       },
       settings = {
         rulesCustomizations = customizations,
+      },
+    })
+
+    vim.lsp.config("pyright", {
+      settings = {
+        pyright = {
+          disableOrganizeImports = true,
+        },
+        python = {
+          analysis = {
+            ignore = { "*" },
+          },
+        },
       },
     })
 

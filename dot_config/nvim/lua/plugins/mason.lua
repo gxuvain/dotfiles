@@ -10,8 +10,9 @@ return {
       "json-lsp",
       "tailwindcss-language-server",
       "vue-language-server",
-      "basedpyright",
-      "eslint-lsp"
+      "eslint-lsp",
+      "ruff",
+      "pyright"
     }
 
     if vim.fn.has("mac") == 1 then
