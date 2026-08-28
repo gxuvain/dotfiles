@@ -1,29 +1,14 @@
 return {
   "neovim/nvim-lspconfig",
   dependencies = {
-    "saghen/blink.cmp",
-    {
-      "folke/lazydev.nvim",
-      opts = {
-        library = {
-          { path = "${3rd}/luv/library", words = { "vim%uv" } },
-        },
+    "folke/lazydev.nvim",
+    opts = {
+      library = {
+        { path = "${3rd}/luv/library", words = { "vim%uv" } },
       },
     },
   },
   config = function()
-    vim.lsp.enable({
-      "lua_ls",
-      "ts_ls",
-      "jsonls",
-      "tailwindcss",
-      "vue_ls",
-      "eslint",
-      "ruff",
-      "pyright"
-    })
-    vim.lsp.enable("ocamllsp", vim.fn.has("mac") == 1)
-
     local vue_language_server_path = vim.fn.stdpath("data") ..
         "/mason/packages/vue-language-server/node_modules/@vue/language-server"
 
@@ -39,9 +24,6 @@ return {
         plugins = { vue_plugin },
       },
       filetypes = { "typescript", "javascript", "javascriptreact", "typescriptreact", "vue" },
-    })
-
-    vim.lsp.config("ts_ls", {
       root_markers = { "package.json" },
       single_file_support = false,
     })
@@ -99,6 +81,18 @@ return {
           },
         },
       },
+    })
+
+    vim.lsp.enable({
+      "lua_ls",
+      "ts_ls",
+      "jsonls",
+      "tailwindcss",
+      "vue_ls",
+      "eslint",
+      "ruff",
+      "pyright",
+      "ocamllsp"
     })
 
     vim.diagnostic.config({

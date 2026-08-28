@@ -1,17 +1,13 @@
 return {
   "nvim-lualine/lualine.nvim",
+  dependencies = { "nvim-mini/mini.nvim" },
   opts = {
-    options = {
-      component_separators = { left = "", right = "" },
-      section_separators = { left = "█", right = "█" },
-    },
     sections = {
       lualine_b = {
         { "branch", icon = "" },
         { "diff" },
-        { "diagnostics" },
-      },
-      lualine_x = { "filetype" }
-    },
+        { "diagnostics" }
+      }
+    }
   }
 }

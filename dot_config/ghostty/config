@@ -1,3 +1,5 @@
-theme = TokyoNight Moon
-font-family = JetBrainsMono Nerd Font
-font-size = 15
+theme = TokyoNight Night
+background = #0e0e12
+font-family = IosevkaTerm Nerd Font
+font-size = 18
+custom-shader = shaders/cursor_tail.glsl
