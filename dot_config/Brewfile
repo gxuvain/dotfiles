@@ -1,0 +1,80 @@
+tap "anomalyco/tap", trusted: true
+tap "chojs23/tap"
+tap "felixkratz/formulae", "https://github.com/FelixKratz/homebrew-formulae", trusted: true
+tap "nikitabobko/tap", trusted: true
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Manage your dotfiles across multiple diverse machines, securely
+brew "chezmoi"
+# CLI tool for Cloudflare Workers
+brew "cloudflare-wrangler"
+# Modern, maintained replacement for ls
+brew "eza"
+# Like neofetch, but much faster because written mostly in C
+brew "fastfetch"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# Command-line fuzzy finder written in Go
+brew "fzf"
+# GitHub command-line tool
+brew "gh"
+# Open-source GitLab command-line tool
+brew "glab"
+# Render markdown on the CLI
+brew "glow"
+# Tools and libraries to manipulate images in select formats
+brew "imagemagick"
+# Git-compatible distributed version control system
+brew "jj"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
+# Simple terminal UI for git commands
+brew "lazygit"
+# Control and observe media playback from the command-line
+brew "media-control"
+# Polyglot runtime manager (asdf rust clone)
+brew "mise"
+# Deep clean and optimize your Mac
+brew "mole"
+# Incremental parsing library
+brew "tree-sitter"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Tool for managing OCI containers and pods
+brew "podman"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Terminal multiplexer
+brew "tmux"
+# Parser generator tool
+brew "tree-sitter-cli"
+# Shell extension to navigate your filesystem faster
+brew "zoxide"
+# Password manager that keeps all passwords secure behind one password
+cask "1password"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
+# OpenAI's Codex desktop app for managing coding agents
+cask "codex-app"
+# Voice and text chat software
+cask "discord"
+cask "font-iosevka-term-nerd-font"
+cask "font-victor-mono"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Control your tools with a few keystrokes
+cask "raycast"
+# Move and resize windows using keyboard shortcuts or snap areas
+cask "rectangle"
+# Music streaming service
+cask "spotify"
+# Multimedia player
+cask "vlc"
+# Gecko based web browser
+cask "zen"
