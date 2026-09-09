@@ -20,6 +20,19 @@ require("snacks").setup({
       }
     },
   },
+  styles = {
+    snacks_image = {
+      relative = "editor",
+      col = -1
+    },
+  },
+  image = {
+    enabled = true,
+    doc = {
+      inline = false,
+      float = true
+    },
+  },
 })
 
 -- Find
