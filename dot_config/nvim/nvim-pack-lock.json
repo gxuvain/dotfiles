@@ -81,10 +81,6 @@
       "rev": "b60bd6b84ec9bd3ce6447e51bff6ffc6142f60b7",
       "src": "https://github.com/mks-h/treesitter-autoinstall.nvim"
     },
-    "treesj": {
-      "rev": "79aedb401bbdc7e4202f7881eab5f6feb2105b0a",
-      "src": "https://github.com/Wansmer/treesj"
-    },
     "ts-error-translator.nvim": {
       "rev": "558abff11b9e8f4cefc0de09df780c56841c7a4b",
       "src": "https://github.com/dmmulroy/ts-error-translator.nvim.git"
