@@ -9,8 +9,6 @@
     "npm:pi-web-access",
     "npm:pi-subagents",
     "npm:@tintinweb/pi-tasks",
-    "npm:pi-add-dir",
-    "npm:pi-btw",
-    "npm:pi-image-paste"
+    "npm:pi-add-dir"
   ]
 }
