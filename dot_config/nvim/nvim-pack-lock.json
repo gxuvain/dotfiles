@@ -41,6 +41,10 @@
       "rev": "455856f765c78220fe547fb0862708942b52c42c",
       "src": "https://github.com/nvim-mini/mini.nvim.git"
     },
+    "nvim": {
+      "rev": "edefef779ab08ce1a4a404713e3012b0d202bd35",
+      "src": "https://github.com/catppuccin/nvim"
+    },
     "nvim-chainsaw": {
       "rev": "c38210b379d5a61b3e1bf918cf787212fa1eedd9",
       "src": "https://github.com/chrisgrieser/nvim-chainsaw"
@@ -72,10 +76,6 @@
     "snacks.nvim": {
       "rev": "882c996cf28183f4d63640de0b4c02ec886d01f2",
       "src": "https://github.com/folke/snacks.nvim.git"
-    },
-    "tokyonight.nvim": {
-      "rev": "cdc07ac78467a233fd62c493de29a17e0cf2b2b6",
-      "src": "https://github.com/folke/tokyonight.nvim.git"
     },
     "treesitter-autoinstall.nvim": {
       "rev": "b60bd6b84ec9bd3ce6447e51bff6ffc6142f60b7",
