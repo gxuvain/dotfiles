@@ -8,7 +8,6 @@
     "npm:@plannotator/pi-extension",
     "npm:pi-web-access",
     "npm:pi-subagents",
-    "npm:@tintinweb/pi-tasks",
     "npm:pi-add-dir"
   ]
 }
