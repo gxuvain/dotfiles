@@ -1,5 +1,6 @@
 require("plugins.blink")
 require("plugins.colorscheme")
+require("plugins.conform")
 require("plugins.fidget")
 require("plugins.gitsigns")
 require("plugins.grug-far")

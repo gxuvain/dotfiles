@@ -5,6 +5,10 @@
       "src": "https://github.com/saghen/blink.cmp.git",
       "version": "1.0.0 - 2.0.0"
     },
+    "conform.nvim": {
+      "rev": "016802de402556da54c36bd7359b441266b01cdd",
+      "src": "https://github.com/stevearc/conform.nvim.git"
+    },
     "fidget.nvim": {
       "rev": "9e0201673e08e997e7cf52afca5565c70bd117f3",
       "src": "https://github.com/j-hui/fidget.nvim.git"

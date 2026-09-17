@@ -28,51 +28,18 @@ vim.lsp.config("ts_ls", {
   single_file_support = false,
 })
 
-local customizations = {
-  { rule = "style/*",   severity = "off", fixable = true },
-  { rule = "format/*",  severity = "off", fixable = true },
-  { rule = "*-indent",  severity = "off", fixable = true },
-  { rule = "*-spacing", severity = "off", fixable = true },
-  { rule = "*-spaces",  severity = "off", fixable = true },
-  { rule = "*-order",   severity = "off", fixable = true },
-  { rule = "*-dangle",  severity = "off", fixable = true },
-  { rule = "*-newline", severity = "off", fixable = true },
-  { rule = "*quotes",   severity = "off", fixable = true },
-  { rule = "*semi",     severity = "off", fixable = true },
-}
-
 vim.lsp.config("oxlint", {
-  settings = {
-    typeAware = true,
-  },
-})
-
-vim.lsp.config("eslint", {
   filetypes = {
     "javascript",
     "javascriptreact",
     "typescript",
     "typescriptreact",
     "vue",
-    "html",
-    "markdown",
-    "json",
-    "jsonc",
-    "yaml",
-    "toml",
-    "xml",
-    "gql",
-    "graphql",
     "astro",
     "svelte",
-    "css",
-    "less",
-    "scss",
-    "pcss",
-    "postcss"
   },
   settings = {
-    rulesCustomizations = customizations,
+    typeAware = true,
   },
 })
 
@@ -96,7 +63,6 @@ vim.lsp.enable({
   "tailwindcss",
   "vue_ls",
   "oxlint",
-  "eslint",
   "ruff",
   "pyright",
   "ocamllsp"

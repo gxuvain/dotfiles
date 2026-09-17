@@ -12,10 +12,11 @@ require("mason-tool-installer").setup({
     "tailwindcss-language-server",
     "vue-language-server",
     "oxlint",
-    "eslint-lsp",
+    "oxfmt",
     "ruff",
     "pyright",
     "ocaml-lsp",
+    "ocamlformat",
   },
   auto_update = false,
 })
