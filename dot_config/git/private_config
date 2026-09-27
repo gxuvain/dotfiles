@@ -1,0 +1,16 @@
+[user]
+	name = Gauvain Palanga
+	email = gauvainpalanga@gmail.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO12IdgkNVV7DKPzi0t/rddp+ZKCLPA84nUzZzP0JFE4
+[core]
+	editor = "nvim"
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true
