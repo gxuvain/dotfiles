@@ -1,6 +1,6 @@
 vim.pack.add({
-  "https://github.com/MeanderingProgrammer/render-markdown.nvim.git",
-  "https://github.com/nvim-mini/mini.nvim.git",
+  "https://github.com/MeanderingProgrammer/render-markdown.nvim",
+  "https://github.com/nvim-mini/mini.nvim",
 })
 
 require("render-markdown").setup()

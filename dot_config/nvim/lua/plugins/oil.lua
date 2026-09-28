@@ -1,6 +1,6 @@
 vim.pack.add({
-  "https://github.com/stevearc/oil.nvim.git",
-  "https://github.com/nvim-mini/mini.nvim.git",
+  "https://github.com/stevearc/oil.nvim",
+  "https://github.com/nvim-mini/mini.nvim",
 })
 
 require("oil").setup({

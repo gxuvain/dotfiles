@@ -1,6 +1,6 @@
 vim.pack.add({
-  "https://github.com/neovim/nvim-lspconfig.git",
-  "https://github.com/folke/lazydev.nvim.git",
+  "https://github.com/neovim/nvim-lspconfig",
+  "https://github.com/folke/lazydev.nvim",
 })
 
 require("lazydev").setup({
@@ -68,6 +68,16 @@ vim.lsp.enable({
   "ocamllsp"
 })
 
+local diagnostic_icons = require("config.icons").diagnostics
+
 vim.diagnostic.config({
-  virtual_text = true
+  virtual_text = true,
+  signs = {
+    text = {
+      [vim.diagnostic.severity.ERROR] = diagnostic_icons.Error,
+      [vim.diagnostic.severity.WARN] = diagnostic_icons.Warn,
+      [vim.diagnostic.severity.INFO] = diagnostic_icons.Info,
+      [vim.diagnostic.severity.HINT] = diagnostic_icons.Hint,
+    },
+  },
 })

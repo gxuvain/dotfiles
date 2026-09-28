@@ -1,7 +1,9 @@
 vim.pack.add({
-  "https://github.com/nvim-lualine/lualine.nvim.git",
-  "https://github.com/nvim-mini/mini.nvim.git",
+  "https://github.com/nvim-lualine/lualine.nvim",
+  "https://github.com/nvim-mini/mini.nvim",
 })
+
+local diagnostic_icons = require("config.icons").diagnostics
 
 require("lualine").setup({
   options = {
@@ -12,7 +14,15 @@ require("lualine").setup({
     lualine_b = {
       { "branch", icon = "" },
       { "diff" },
-      { "diagnostics" }
+      {
+        "diagnostics",
+        symbols = {
+          error = diagnostic_icons.Error,
+          warn = diagnostic_icons.Warn,
+          info = diagnostic_icons.Info,
+          hint = diagnostic_icons.Hint,
+        },
+      }
     },
     lualine_x = { "filetype" },
     lualine_y = { "progress" },

@@ -1,11 +1,16 @@
 vim.pack.add({
-  "https://github.com/folke/snacks.nvim.git",
-  "https://github.com/nvim-mini/mini.nvim.git",
+  "https://github.com/folke/snacks.nvim",
+  "https://github.com/nvim-mini/mini.nvim",
 })
+
+local diagnostic_icons = require("config.icons").diagnostics
 
 require("snacks").setup({
   input = { enabled = true },
-  picker = { enabled = true },
+  picker = {
+    enabled = true,
+    icons = { diagnostics = diagnostic_icons },
+  },
   git = { enabled = true },
   scope = { enabled = true },
   indent = {
