@@ -1,10 +1,10 @@
 local M = {}
 
 M.diagnostics = {
-  Error = "󰚌 ",
-  Warn = " ",
-  Info = " ",
-  Hint = " ",
+  Error = "E ",
+  Warn = "W ",
+  Info = "I ",
+  Hint = "H ",
 }
 
 return M

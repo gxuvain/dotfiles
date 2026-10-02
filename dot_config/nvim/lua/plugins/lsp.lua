@@ -28,12 +28,23 @@ vim.lsp.config("ts_ls", {
   single_file_support = false,
 })
 
+vim.lsp.config("tailwindcss", {
+  capabilities = {
+    textDocument = {
+      completion = {
+        dynamicRegistration = false,
+      },
+    },
+  },
+})
+
 vim.lsp.config("oxlint", {
   filetypes = {
     "javascript",
     "javascriptreact",
     "typescript",
     "typescriptreact",
+    "json",
     "vue",
     "astro",
     "svelte",
@@ -59,7 +70,6 @@ vim.lsp.config("pyright", {
 vim.lsp.enable({
   "lua_ls",
   "ts_ls",
-  "jsonls",
   "tailwindcss",
   "vue_ls",
   "oxlint",

@@ -6,12 +6,12 @@ require("conform").setup({
     javascriptreact = { "oxfmt" },
     typescript = { "oxfmt" },
     typescriptreact = { "oxfmt" },
+    json = { "oxfmt" },
     vue = { "oxfmt" },
     python = { "ruff_fix", "ruff_format", "ruff_organize_imports" },
     ocaml = { "ocamlformat" },
   },
   format_on_save = {
-    timeout_ms = 500,
     lsp_format = "fallback",
   },
 })

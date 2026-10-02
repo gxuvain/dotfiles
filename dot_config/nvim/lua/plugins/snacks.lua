@@ -9,22 +9,12 @@ require("snacks").setup({
   input = { enabled = true },
   picker = {
     enabled = true,
-    icons = { diagnostics = diagnostic_icons },
+    icons = {
+      diagnostics = diagnostic_icons,
+    },
   },
   git = { enabled = true },
   scope = { enabled = true },
-  indent = {
-    enabled = true,
-    indent = { enabled = false },
-    scope = { enabled = true },
-    chunk = {
-      enabled = true,
-      char = {
-        corner_top = "╭",
-        corner_bottom = "╰"
-      }
-    },
-  },
   styles = {
     snacks_image = {
       relative = "editor",
@@ -57,8 +47,7 @@ vim.keymap.set("n", "<leader>gg", function() Snacks.lazygit() end, { desc = "Laz
 vim.keymap.set("n", "gd", function() Snacks.picker.lsp_definitions() end, { desc = "Goto Definition" })
 vim.keymap.set("n", "gr", function() Snacks.picker.lsp_references() end, { nowait = true, desc = "References" })
 vim.keymap.set("n", "gi", function() Snacks.picker.lsp_implementations() end, { desc = "Goto Implementation" })
-vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, { desc = "Rename" })
-vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "Code Action" })
+vim.keymap.set("n", "<leader>fs", function() Snacks.picker.lsp_symbols() end, { desc = "LSP Symbols" })
 
 -- Buffer
 vim.keymap.set("n", "<leader>bd", function() Snacks.bufdelete() end, { desc = "Delete Buffer" })

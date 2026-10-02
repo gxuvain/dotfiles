@@ -1,4 +1,4 @@
-theme = Catppuccin Mocha
-font-family = IosevkaTerm Nerd Font
-font-size = 18
+theme = iTerm2 Dark Background
+font-family = TX-02
+font-size = 16
 custom-shader = shaders/cursor_tail.glsl

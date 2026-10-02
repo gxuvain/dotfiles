@@ -5,9 +5,21 @@
       "src": "https://github.com/saghen/blink.cmp",
       "version": "1.0.0 - 2.0.0"
     },
+    "boo-colorscheme-nvim": {
+      "rev": "8eb36d50a124472c8b3c864e45997b4ac7331db7",
+      "src": "https://github.com/rockerBOO/boo-colorscheme-nvim"
+    },
+    "colorbuddy.nvim": {
+      "rev": "8b968581e5c19d22a861d5f3fe5dbd83394fa681",
+      "src": "https://github.com/tjdevries/colorbuddy.nvim"
+    },
     "conform.nvim": {
       "rev": "016802de402556da54c36bd7359b441266b01cdd",
       "src": "https://github.com/stevearc/conform.nvim"
+    },
+    "copilot.lua": {
+      "rev": "9c8b172570105d31ff707cb0d62897f79c2ddb1f",
+      "src": "https://github.com/zbirenbaum/copilot.lua"
     },
     "fidget.nvim": {
       "rev": "9e0201673e08e997e7cf52afca5565c70bd117f3",
@@ -45,17 +57,9 @@
       "rev": "455856f765c78220fe547fb0862708942b52c42c",
       "src": "https://github.com/nvim-mini/mini.nvim"
     },
-    "modus-themes.nvim": {
-      "rev": "15ffb5ab6a12f72ee1e8393fe5810d5317da2d3e",
-      "src": "https://github.com/miikanissi/modus-themes.nvim"
-    },
     "nvim": {
       "rev": "edefef779ab08ce1a4a404713e3012b0d202bd35",
       "src": "https://github.com/catppuccin/nvim"
-    },
-    "nvim-chainsaw": {
-      "rev": "c38210b379d5a61b3e1bf918cf787212fa1eedd9",
-      "src": "https://github.com/chrisgrieser/nvim-chainsaw"
     },
     "nvim-highlight-colors": {
       "rev": "e4c7af0211866162d999ce0bdd6a029302e19139",
@@ -92,10 +96,6 @@
     "ts-error-translator.nvim": {
       "rev": "558abff11b9e8f4cefc0de09df780c56841c7a4b",
       "src": "https://github.com/dmmulroy/ts-error-translator.nvim"
-    },
-    "workspace-diagnostics.nvim": {
-      "rev": "a35321d8401878cc9558e357acfd0da58b582739",
-      "src": "https://github.com/artemave/workspace-diagnostics.nvim"
     }
   }
 }
