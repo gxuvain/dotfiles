@@ -57,6 +57,10 @@
       "rev": "455856f765c78220fe547fb0862708942b52c42c",
       "src": "https://github.com/nvim-mini/mini.nvim"
     },
+    "neovim": {
+      "rev": "ff483051a47e27d84bdef47703538df1ed9f4a47",
+      "src": "https://github.com/rose-pine/neovim"
+    },
     "nvim": {
       "rev": "edefef779ab08ce1a4a404713e3012b0d202bd35",
       "src": "https://github.com/catppuccin/nvim"
@@ -96,6 +100,10 @@
     "ts-error-translator.nvim": {
       "rev": "558abff11b9e8f4cefc0de09df780c56841c7a4b",
       "src": "https://github.com/dmmulroy/ts-error-translator.nvim"
+    },
+    "vague.nvim": {
+      "rev": "f9060fdaf7b20f68575d6f8214da6f1cf0c72825",
+      "src": "https://github.com/vague-theme/vague.nvim"
     }
   }
 }

@@ -1,5 +1,7 @@
 {
   "lastChangelogVersion": "1.0.0",
+  "theme": "dark",
+  "extensions": ["-builtin:mcp"],
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.6-sol",
   "defaultThinkingLevel": "medium",
@@ -9,6 +11,5 @@
     "npm:pi-subagents",
     "npm:pi-add-dir",
     "npm:pi-mcp-adapter"
-  ],
-  "theme": "dark"
+  ]
 }
