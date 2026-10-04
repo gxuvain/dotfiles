@@ -2,6 +2,7 @@ vim.pack.add({ "https://github.com/catppuccin/nvim" })
 vim.pack.add({ "https://github.com/tjdevries/colorbuddy.nvim" })
 vim.pack.add({ "https://github.com/vague-theme/vague.nvim" })
 vim.pack.add({ "https://github.com/rose-pine/neovim" })
+
 require("catppuccin").setup()
 require("vague").setup({
   colors = {
