@@ -5,3 +5,4 @@ MiniIcons.mock_nvim_web_devicons()
 
 require("mini.surround").setup()
 require("mini.pairs").setup()
+require("mini.diff").setup()

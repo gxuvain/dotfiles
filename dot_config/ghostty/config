@@ -1,4 +1,4 @@
 theme = 0x96f
-font-family = TX-02
+font-family = TX-02 Nerd Font
 font-size = 16
 custom-shader = shaders/cursor_tail.glsl
