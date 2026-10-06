@@ -1,5 +1,4 @@
-theme = Rose Pine
-background = #111111
+theme = 0x96f
 font-family = TX-02
 font-size = 16
 custom-shader = shaders/cursor_tail.glsl
