@@ -7,6 +7,8 @@ alias cat="bat"
 starship init fish | source
 zoxide init fish | source
 
+fish_config theme choose catppuccin-macchiato
+
 fish_add_path /opt/homebrew/bin
 fish_add_path /opt/homebrew/sbin
 fish_add_path ~/.opam/default/bin

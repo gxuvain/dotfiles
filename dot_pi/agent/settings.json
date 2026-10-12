@@ -1,9 +1,7 @@
 {
   "lastChangelogVersion": "1.0.3",
-  "theme": "dark",
-  "extensions": [
-    "-builtin:mcp"
-  ],
+  "theme": "catppuccin-macchiato",
+  "extensions": ["-builtin:mcp"],
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.6-sol",
   "defaultThinkingLevel": "medium",
@@ -11,7 +9,6 @@
     "npm:@plannotator/pi-extension",
     "npm:pi-web-access",
     "npm:pi-subagents",
-    "npm:pi-add-dir",
-    "npm:pi-mcp-adapter"
+    "npm:pi-add-dir"
   ]
 }

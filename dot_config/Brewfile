@@ -1,3 +1,4 @@
+tap "anomalyco/tap", trusted: true
 # Bourne-Again SHell, a UNIX command interpreter
 brew "bash"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -34,6 +35,8 @@ brew "mole"
 brew "tree-sitter"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim", args: ["HEAD"]
+# AI agent toolkit
+brew "pi-coding-agent"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Cross-shell prompt for astronauts
@@ -44,6 +47,8 @@ brew "tmux"
 brew "tree-sitter-cli"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
+# OpenCode V2 - the AI coding agent for the terminal
+brew "anomalyco/tap/opencode-v2", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # Command-line interface for 1Password
@@ -51,15 +56,14 @@ cask "1password-cli"
 # Voice and text chat software
 cask "discord"
 cask "font-iosevka-term-nerd-font"
-cask "font-victor-mono"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# Control your tools with a few keystrokes
-cask "raycast"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Music streaming service
 cask "spotify"
+# Application launcher and command palette
+cask "vicinae"
 # Multimedia player
 cask "vlc"
 # Gecko based web browser
