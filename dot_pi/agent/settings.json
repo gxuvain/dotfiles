@@ -1,7 +1,9 @@
 {
-  "lastChangelogVersion": "1.0.3",
+  "lastChangelogVersion": "1.1.0",
   "theme": "catppuccin-macchiato",
-  "extensions": ["-builtin:mcp"],
+  "extensions": [
+    "-builtin:mcp"
+  ],
   "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.6-sol",
   "defaultThinkingLevel": "medium",

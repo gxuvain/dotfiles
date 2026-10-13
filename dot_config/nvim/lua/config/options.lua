@@ -18,3 +18,5 @@ vim.o.splitbelow = true
 vim.o.inccommand = "split"
 vim.o.swapfile = false
 vim.o.undofile = true
+vim.o.winborder = "rounded"
+vim.o.pumborder = "rounded"
