@@ -4,6 +4,8 @@ alias ls="eza --icons"
 alias ll="eza -l --icons"
 alias cat="bat"
 
+set -gx EDITOR nvim
+
 starship init fish | source
 zoxide init fish | source
 
