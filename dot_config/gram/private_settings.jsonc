@@ -1,0 +1,57 @@
+// Gram settings
+//
+// For information on how to configure Gram, see the Gram
+// documentation: gram://docs/configuring-gram
+//
+// To see all of Gram's default settings without changing your
+// custom settings, run `gram: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "helix_mode": true,
+  "ui_font_size": 14,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "system",
+    "light": "Melange Light",
+    "dark": "Melange Dark",
+  },
+// LSP Settings
+//
+// Settings related to the installation and authorization of
+// LSP for different languages
+  "node": {
+    "allow_npm_install": true
+  },
+  "lsp": {
+    "eslint": {
+      "binary": {
+        "allow_binary_download": true
+      },
+      "enable_lsp_tasks": true
+    },
+    "tailwindcss-language-server": {
+      "binary": {
+        "allow_binary_download": true
+      },
+      "enable_lsp_tasks": true
+    },
+    "vue-language-server": {
+      "binary": {
+        "allow_binary_download": true
+      },
+      "enable_lsp_tasks": true
+    },
+    "json-language-server": {
+      "binary": {
+        "allow_binary_download": true
+      },
+      "enable_lsp_tasks": true
+    },
+    "vtsls": {
+      "binary": {
+        "allow_binary_download": true
+      },
+      "enable_lsp_tasks": true
+    }
+  },
+}
