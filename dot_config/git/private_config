@@ -3,7 +3,7 @@
 	email = gauvainpalanga@gmail.com
 	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO12IdgkNVV7DKPzi0t/rddp+ZKCLPA84nUzZzP0JFE4
 [core]
-	editor = "nvim"
+	editor = "hx"
 [init]
 	defaultBranch = main
 [push]

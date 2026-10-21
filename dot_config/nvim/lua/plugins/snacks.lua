@@ -18,14 +18,17 @@ require("snacks").setup({
   styles = {
     snacks_image = {
       relative = "editor",
-      col = -1
+      row = 0,
+      col = -1,
     },
   },
   image = {
     enabled = true,
     doc = {
       inline = false,
-      float = true
+      float = true,
+      max_width = 20,
+      max_height = 20,
     },
   },
 })

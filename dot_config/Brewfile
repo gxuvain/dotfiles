@@ -1,30 +1,25 @@
+tap "abue-ammar/tinycast"
 tap "anomalyco/tap", trusted: true
-# Bourne-Again SHell, a UNIX command interpreter
-brew "bash"
-# Clone of cat(1) with syntax highlighting and Git integration
-brew "bat"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
 # CLI tool for Cloudflare Workers
 brew "cloudflare-wrangler"
-# Modern, maintained replacement for ls
-brew "eza"
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
 # Simple, fast and user-friendly alternative to find
 brew "fd"
-# User-friendly command-line shell for UNIX-like operating systems
-brew "fish"
 # Command-line fuzzy finder written in Go
 brew "fzf"
 # GitHub command-line tool
 brew "gh"
-# Agent multiplexer that lives in your terminal
-brew "herdr"
+# Post-modern modal text editor
+brew "helix"
 # Tools and libraries to manipulate images in select formats
 brew "imagemagick"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
+# Handy way to save and run project-specific commands
+brew "just"
 # Simple terminal UI for git commands
 brew "lazygit"
 # Polyglot runtime manager (asdf rust clone)
@@ -37,6 +32,8 @@ brew "tree-sitter"
 brew "neovim", args: ["HEAD"]
 # AI agent toolkit
 brew "pi-coding-agent"
+# Erlang build tool
+brew "rebar3"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Cross-shell prompt for astronauts
@@ -51,20 +48,21 @@ brew "zoxide"
 brew "anomalyco/tap/opencode-v2", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# Command-line interface for 1Password
-cask "1password-cli"
+# Data orchestration and data engineering platform
+cask "gxuvain/local/apache-hop", trusted: true
 # Voice and text chat software
 cask "discord"
+cask "font-fantasque-sans-mono-nerd-font"
 cask "font-iosevka-term-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
+# Code editor focused on stability, without AI, subscriptions, or telemetry
+cask "gram"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Music streaming service
 cask "spotify"
-# Application launcher and command palette
-cask "vicinae"
-# Multimedia player
-cask "vlc"
+# Tiny, fully native launcher, hotkeys, and clipboard history
+cask "abue-ammar/tinycast/tinycast", trusted: true
 # Gecko based web browser
 cask "zen"
