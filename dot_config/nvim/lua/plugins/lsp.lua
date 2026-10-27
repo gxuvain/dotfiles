@@ -75,7 +75,8 @@ vim.lsp.enable({
   "oxlint",
   "ruff",
   "pyright",
-  "ocamllsp"
+  "ocamllsp",
+  "gleam"
 })
 
 local diagnostic_icons = require("config.icons").diagnostics

@@ -1,13 +1,13 @@
 vim.pack.add({
   "https://github.com/nvim-lualine/lualine.nvim",
-  "https://github.com/nvim-mini/mini.nvim",
+  "https://github.com/nvim-tree/nvim-web-devicons",
 })
 
 local diagnostic_icons = require("config.icons").diagnostics
 
 require("lualine").setup({
   options = {
-    component_separators = { left = "", right = "" },
+    component_separators = { left = "", right = "" },
     section_separators = { left = "", right = "" },
   },
   sections = {

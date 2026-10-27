@@ -1,6 +1,6 @@
 vim.pack.add({
   "https://github.com/stevearc/oil.nvim",
-  "https://github.com/nvim-mini/mini.nvim",
+  "https://github.com/nvim-tree/nvim-web-devicons",
 })
 
 require("oil").setup({
@@ -12,4 +12,4 @@ require("oil").setup({
   }
 })
 
-vim.keymap.set("n", "<leader>e", "<cmd>Oil<cr>")
+vim.keymap.set("n", "<leader>e", "<cmd>Oil --float<cr>")

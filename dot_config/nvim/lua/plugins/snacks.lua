@@ -1,6 +1,6 @@
 vim.pack.add({
   "https://github.com/folke/snacks.nvim",
-  "https://github.com/nvim-mini/mini.nvim",
+  "https://github.com/nvim-tree/nvim-web-devicons",
 })
 
 local diagnostic_icons = require("config.icons").diagnostics
@@ -15,6 +15,19 @@ require("snacks").setup({
   },
   git = { enabled = true },
   scope = { enabled = true },
+  indent = {
+    enabled = true,
+    indent = { enabled = false },
+    scope = { enabled = true },
+    chunk = {
+      enabled = true,
+      char = {
+        arrow = "─",
+        corner_top = "╭",
+        corner_bottom = "╰"
+      },
+    },
+  },
   styles = {
     snacks_image = {
       relative = "editor",
@@ -31,6 +44,28 @@ require("snacks").setup({
       max_height = 20,
     },
   },
+  notifier = {
+    enabled = true,
+    icons = {
+      error = diagnostic_icons.Error,
+      warn = diagnostic_icons.Warn,
+      info = diagnostic_icons.Info,
+    },
+  },
+})
+
+vim.api.nvim_create_autocmd("LspProgress", {
+  callback = function(ev)
+    local spinner = { "⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏" }
+    vim.notify(vim.lsp.status(), "info", {
+      id = "lsp_progress",
+      title = "LSP Progress",
+      opts = function(notif)
+        notif.icon = ev.data.params.value.kind == "end" and " "
+            or spinner[math.floor(vim.uv.hrtime() / (1e6 * 80)) % #spinner + 1]
+      end,
+    })
+  end,
 })
 
 -- Find

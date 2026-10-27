@@ -12,6 +12,7 @@ vim.o.showmode = false
 vim.o.ignorecase = true
 vim.o.smartcase = true
 vim.o.wrap = false
+vim.o.colorcolumn = "80"
 vim.o.confirm = true
 vim.o.splitright = true
 vim.o.splitbelow = true

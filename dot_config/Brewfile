@@ -4,6 +4,8 @@ tap "anomalyco/tap", trusted: true
 brew "chezmoi"
 # CLI tool for Cloudflare Workers
 brew "cloudflare-wrangler"
+# Modern, maintained replacement for ls
+brew "eza"
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
 # Simple, fast and user-friendly alternative to find
@@ -32,8 +34,8 @@ brew "tree-sitter"
 brew "neovim", args: ["HEAD"]
 # AI agent toolkit
 brew "pi-coding-agent"
-# Erlang build tool
-brew "rebar3"
+# Generic machine emulator and virtualizer
+brew "qemu"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Cross-shell prompt for astronauts
@@ -44,25 +46,34 @@ brew "tmux"
 brew "tree-sitter-cli"
 # Shell extension to navigate your filesystem faster
 brew "zoxide"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
 # OpenCode V2 - the AI coding agent for the terminal
 brew "anomalyco/tap/opencode-v2", trusted: true
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
-# Data orchestration and data engineering platform
-cask "gxuvain/local/apache-hop", trusted: true
+# OpenAI's official ChatGPT desktop app
+cask "chatgpt"
+# Databases and SQL IDE
+cask "datagrip"
 # Voice and text chat software
 cask "discord"
-cask "font-fantasque-sans-mono-nerd-font"
+# App to build and share containerised applications and microservices
+cask "docker-desktop"
 cask "font-iosevka-term-nerd-font"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
-# Code editor focused on stability, without AI, subscriptions, or telemetry
-cask "gram"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Music streaming service
 cask "spotify"
 # Tiny, fully native launcher, hotkeys, and clipboard history
 cask "abue-ammar/tinycast/tinycast", trusted: true
+# Virtual machines UI using QEMU
+cask "utm"
+# Multiplayer code editor
+cask "zed"
 # Gecko based web browser
 cask "zen"
